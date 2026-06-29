@@ -13,3 +13,14 @@ INPUT score2
 INPUT score3
 PROCESS average = (score1+score2+score3)/3.
 DISPLAY average
+END
+
+Activity 3: Determine if a number is even or odd
+START
+INPUT number
+IF number MOD 2 equals 0
+	DISPLAY "Even"
+ELSE
+	DISPLAY "Odd"
+END IF
+END
